@@ -21,6 +21,7 @@ module.exports = {
   app: "./resources/js/app.js",
   dashboard: "./resources/js/pages/dashboard.js",
   "pipeline-launch": "./resources/js/pages/pipelines/pipeline.launch.js",
+  project: "./resources/js/components/project/ProjectNav.jsx",
   "project-events": "./resources/js/pages/projects/project-events.js",
   projects: "./resources/js/pages/projects/list/index.js",
   "samples-metadata-import":
@@ -55,9 +56,8 @@ module.exports = {
     "./resources/js/pages/projects/metadata-template/create-metadata-template.js",
   "visualizations-phylogenetics":
     "./resources/js/pages/visualizations/phylogenetics/index.js",
-  "project-users-groups":
-    "./resources/js/pages/projects/project-users-groups.js",
   "project-users": "./resources/js/pages/projects/ProjectMembers.jsx",
+  "project-user-groups": "./resources/js/pages/projects/ProjectUserGroups.jsx",
   "associated-projects":
     "./resources/js/pages/projects/associated-projects/index.js",
   sample: "./resources/js/pages/SamplePage.jsx",
@@ -79,10 +79,11 @@ module.exports = {
   "sample-edit": "./resources/js/pages/samples/sample-edit.js",
   "sequencing-runs":
     "./resources/js/pages/sequencing-runs/SequencingRunsPage.jsx",
-  "groups-list": "./resources/js/pages/users/groups-list.js",
-  "group-members": "./resources/js/pages/users/groups-members.js",
+  groups: "./resources/js/pages/UserGroupsPage",
   "ncbi-exports": "./resources/js/pages/projects/ncbi-export.js",
   search: "./resources/js/pages/search/search.js",
   "run-files": "./resources/js/pages/sequence-files/run-files.js",
   "user-details": "./resources/js/pages/user-details.js",
+  "project-metadata-templates":
+    "./resources/js/pages/projects/metadata-templates",
 };
